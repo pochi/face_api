@@ -9,5 +9,5 @@ params = {
   confidenceThreshold: 0.5
 }.to_json
 
-response = Faceapi::Face::instance::identify(params)
+response = Faceapi::Face::identify(params)
 binding.pry
